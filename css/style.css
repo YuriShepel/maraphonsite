@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.container {
+    max-width: 1105px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px auto;
+}
+
+.nav-li {
+    display: inline-block;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.nav-li:not(:last-of-type) {
+    margin-right: 94px;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #FA4A0C;
+}
+
+.app {
+    background-image: url('/img/firstpic.png');
+    color: white;
+    text-align: center;
+    padding: 80px 0 162px;
+    background-repeat: no-repeat;
+    box-sizing: cover;
+    background-position: center;
+}
+
+.app-pretitle {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    font-family: Montserrat;
+}
+
+.app-title {
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 80px;
+    max-width: 800px;
+    margin: 10px auto;
+    font-family: Poppins;
+}
+
+.app-text {
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 54px;
+    font-style: normal;
+    font-family: Montserrat;
+}
+
+.button {
+    width: 236px;
+    height: 68px;
+    color: white;
+    border-radius: 30px;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.button:first-of-type {
+    background: #FA4A0C;
+    border: 1px solid #FA4A0C;
+    margin-right: 67px;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.button:last-of-type {
+    background: none;
+    border: 1px solid white;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.central-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-pretitle {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FA4A0C;
+    font-family: Montserrat;
+}
+
+.mobile-title {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    max-width: 560px;
+}
+
+.mobile-text {
+    font-family: Montserrat;
+    font-size: 24px;
+    line-height: 38px;
+    max-width: 467px;
+    color: #737373;
+}
+
+.mobile-second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-second-pretitle {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FA4A0C;
+    font-family: Montserrat;
+}
+
+.mobile-second-title {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    max-width: 560px;
+}
+
+.mobile-second-text {
+    font-family: Montserrat;
+    font-size: 24px;
+    line-height: 38px;
+    max-width: 467px;
+    color: #737373;
+}
+
+.proposition {
+    background-image: url('/img/secondpic.png');
+    color: white;
+    text-align: center;
+    padding: 131px 0 130px;
+    background-repeat: no-repeat;
+    box-sizing: cover;
+    background-position: center;
+    font-family: Montserrat;
+    margin-top: 80px;
+}
+
+.first-title {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+}
+
+.second-title {
+    font-style: normal;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 49px;
+    font-weight: 500;
+}
+
+.button-second {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Montserrat;
+    border-radius: 10px;
+}
+
+.button-second:first-of-type {
+    width: 142px;
+    height: 64px;
+    background: #FA4A0C;
+    border: 1px solid #FA4A0C;
+    margin-right: 16px;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.button-second:last-of-type {
+    width: 173px;
+    height: 60px;
+    background: none;
+    border: 1px solid white;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 78px auto;
+    max-width: 1210px;
+}
+
+.fotter-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+}
